@@ -68,6 +68,7 @@ start: 30
 [部員を見る](/members)
 
 ## 各種リンク
-- https://x.com/softwaretohtech
-- https://www.instagram.com/tohtech_software
-- https://www.youtube.com/@tohtech-softtech
+- X: https://x.com/softwaretohtech
+- instagram: https://www.instagram.com/tohtech_software
+- youtube: https://www.youtube.com/@tohtech-softtech
+- Qiita: https://qiita.com/organizations/tohtech
