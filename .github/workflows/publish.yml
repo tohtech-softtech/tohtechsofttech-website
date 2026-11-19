@@ -2,7 +2,7 @@ name: Deploy to Cloudflare Workers
 
 on:
   push:
-    branches: [main]
+    branches: [maister]
   workflow_dispatch:
   repository_dispatch:
     types: [content-updated]
@@ -178,4 +178,3 @@ jobs:
           fi
           git push origin "$commit:refs/heads/$PUBLICATION_STATE_BRANCH"
           echo "Saved publication state to $PUBLICATION_STATE_BRANCH at $commit."
-
