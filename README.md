@@ -66,85 +66,38 @@ publish: true
 
 ## 部員カードを追加する
 
-部員カードは、次の2か所を更新します。
-
-1. `app/components/members/` に部員ごとのカードを作る
-2. `content/members.mdx` でカードを読み込み、一覧に追加する
-
-### 1. カードのファイルを作る
-
-`app/components/members/member-b.tsx` をコピーし、たとえば `app/components/members/yamada.tsx` を作成します。ファイル内の関数名、名前、学年、紹介文、URLを書き換えてください。
-
-```tsx
-import { MemberCard } from "../member-card";
-
-export function YamadaMemberCard() {
-  return (
-    <MemberCard>
-      <div class="site-member-card__header">
-        <span
-          class="site-member-card__avatar site-member-card__avatar--initial"
-          aria-hidden="true"
-        >
-          山
-        </span>
-        <div class="site-member-card__identity">
-          <h3 class="site-member-card__name">山田 太郎</h3>
-          <span class="site-member-card__badge">2年生</span>
-        </div>
-      </div>
-      <p class="site-member-card__bio">Web開発を中心に活動しています。</p>
-      <a
-        class="site-member-card__site"
-        href="https://example.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        https://example.com
-      </a>
-      <ul class="site-member-card__links">
-        <li>
-          <a
-            class="site-member-card__link"
-            href="https://github.com/example"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-        </li>
-      </ul>
-    </MemberCard>
-  );
-}
-```
-
-個人サイトやSNSがない場合は、該当する `<a>` 要素、またはSNS全体を囲む `<ul>...</ul>` を削除してください。外部リンクには必ず `target="_blank"` と `rel="noopener noreferrer"` を付けます。
-
-### 2. 部員一覧に追加する
-
-`content/members.mdx` に、作成したコンポーネントの読み込みと表示を追加します。
+ふつうのカードは、`content/members.mdx` に `SimpleMemberCard` を追加するだけで作れます。TSXを編集する必要はありません。
 
 ```mdx
-import { YamadaMemberCard } from "../app/components/members/yamada";
+import { SimpleMemberCard } from "../app/components/members/simple-member-card";
 ```
 
-次に、`<MemberGrid>` の中へ追加します。並び順はここに書かれた順番です。
+`<MemberGrid>` の中へ追加します。並び順はここに書かれた順番です。
 
 ```mdx
-<MemberGrid>
-  <RerurateMemberCard />
-  <MemberBCard />
-  <MemberCCard />
-  <YamadaMemberCard />
-</MemberGrid>
+<SimpleMemberCard
+  name="山田 太郎"
+  year={2}
+  bio="Web開発を中心に活動しています。"
+  site="https://example.com"
+  links={[
+    { label: "GitHub", href: "https://github.com/example" },
+  ]}
+/>
 ```
 
-### 写真付き・個別デザインのカードにしたい場合
+- `name` は必須です。
+- `icon` に `/members/icons/yamada.jpg` のような画像パスを指定すると写真付きになります。省略すると名前の1文字目が表示されます。
+- `year` は学年、`ob` はOBのときに指定します。どちらも不要なら省略できます。
+- `bio` は紹介文、`site` は個人サイトのURLです。
+- `links` はSNSなどのリンクです。不要な項目は削除できます。
+- 外部リンクの `target` と `rel` はコンポーネント側で付きます。
 
-写真は `public/members/icons/` に置き、`src="/members/icons/ファイル名.jpg"` のように指定します。`app/components/members/rerurate.tsx` と `app/styles/members/rerurate.css` が、写真と個別デザインを使った例です。
+画像は `public/members/icons/` に置きます。`public/members/icons/yamada.jpg` は `/members/icons/yamada.jpg` と指定します。
 
-個別CSSを追加した場合は、`app/styles/members/index.css` からそのCSSファイルを `@import` してください。
+### 個別デザインのカードにしたい場合
+
+`RerurateMemberCard` のように、部員ごとに専用コンポーネントとCSSを作ることもできます。既存の `app/components/members/rerurate.tsx` と `app/styles/members/rerurate.css` を参考にしてください。個別CSSを追加した場合は、`app/styles/members/index.css` からそのCSSファイルを `@import` してください。
 
 ## 公開前の確認
 
