@@ -1,8 +1,8 @@
 {
   "version": 1,
   "lastSuccess": {
-    "runId": "d0699041-d00b-42ad-963e-b8301bfb65dc",
-    "publishedAt": "2026-11-19T11:21:20.161Z",
+    "runId": "cecb437c-58a0-436d-baa4-e9ef63a52f99",
+    "publishedAt": "2026-11-19T11:27:20.095Z",
     "publicationFingerprint": "ce3e06a12c9ab6aac97895a72d509dd61091c280b987929595e8a0a55f1a1479",
     "entries": [
       {
@@ -39,7 +39,7 @@
       }
     ],
     "redirects": [],
-    "artifactFingerprint": "47bc06cd7fb731f74ad0f531629621e67df7026dc6b4dceed85299ff15c4015e",
+    "artifactFingerprint": "eb444548419089d86a1910a2fb2aee3f6021d6ae69adc6fffe056696c986e946",
     "provider": "cloudflare-workers"
   }
 }
