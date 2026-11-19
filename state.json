@@ -1,17 +1,17 @@
 {
   "version": 1,
   "lastSuccess": {
-    "runId": "f002ebdf-acc0-4617-892f-f82fa2a7282a",
-    "publishedAt": "2026-11-19T12:03:51.438Z",
-    "publicationFingerprint": "9538da4d95c13df3227db8f6377f9001ad4f8a3181bf7019cda01d0656c9f97e",
+    "runId": "20bcba2c-420f-491e-8af7-49721c087212",
+    "publishedAt": "2026-11-19T13:39:18.820Z",
+    "publicationFingerprint": "b0c96c3a49836ae1b6d462407dee285b2fa636b8613ceedf66ab1f6b2a8addc6",
     "entries": [
       {
         "slug": "activities",
         "permalink": "/activities",
         "title": "活動の様子",
         "visibility": "public",
-        "fingerprint": "05c4cbe1949b23721aa1f398a4ffd6f069b8b9f9eeb811372d0db6478903cf85",
-        "contentFingerprint": "43d4e837daa733ca9a1f4d6a71dc60f3f81caacc4ae5fb50003e07a8416d5a5b"
+        "fingerprint": "f7f7c0c90ac62e76e92299324b0be61b371dd0d52084d848c6f7da71b70a895c",
+        "contentFingerprint": "8c92040446dccfcdf36b3493d7f5bd9779a50ae13fcbd034988ff9da24ecdf0f"
       },
       {
         "slug": "index",
@@ -39,7 +39,7 @@
       }
     ],
     "redirects": [],
-    "artifactFingerprint": "ddf24b3c729cd5c33bc23f6d322f783aa03081f278493fbab7251a5b833057ff",
+    "artifactFingerprint": "031144cf69accd3cca2a5244bb21466046e27a469b0c0536f2741d7a1d8acdd3",
     "provider": "cloudflare-workers"
   }
 }
