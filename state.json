@@ -1,9 +1,9 @@
 {
   "version": 1,
   "lastSuccess": {
-    "runId": "090459b0-cd37-4104-8fb6-c45a9c3245c8",
-    "publishedAt": "2026-11-19T12:00:28.935Z",
-    "publicationFingerprint": "ce3e06a12c9ab6aac97895a72d509dd61091c280b987929595e8a0a55f1a1479",
+    "runId": "f002ebdf-acc0-4617-892f-f82fa2a7282a",
+    "publishedAt": "2026-11-19T12:03:51.438Z",
+    "publicationFingerprint": "9538da4d95c13df3227db8f6377f9001ad4f8a3181bf7019cda01d0656c9f97e",
     "entries": [
       {
         "slug": "activities",
@@ -18,8 +18,8 @@
         "permalink": "/",
         "title": "index",
         "visibility": "public",
-        "fingerprint": "8b01fe15f96dcf7f2f58783e7d6eabc032929f32527c0112362934a38c0ad0c0",
-        "contentFingerprint": "74673542ceef606100061bb816e9dd936e38bd53fa1dd1c30a268a79eb58005d"
+        "fingerprint": "19cdc7774d36021b6597d2d7c64d95b0a3b208ca84e301a8a0c6a0a00ed28469",
+        "contentFingerprint": "0c20d7cda651d4a99c99ed6893bbb9edfc651dcd0df39592121d4f5e60e5977f"
       },
       {
         "slug": "join",
@@ -34,12 +34,12 @@
         "permalink": "/members",
         "title": "部員",
         "visibility": "public",
-        "fingerprint": "96ffab8ad6e8d94f3f95ca96b67610d417d2bc376b0d46e7698ae0f3eda69bc8",
-        "contentFingerprint": "94bff1b82b1b95370a0bbd802198ddaa261bf24864a33e4c8b8cf98a201bcd73"
+        "fingerprint": "ca73f850a5dd5f186090f40be2d1fbdb17843898162423a40419a822b1e1bcf6",
+        "contentFingerprint": "abad83e333cdeb9efba8768bbaace8c6e1ec41609846f5f60505de12ca97271b"
       }
     ],
     "redirects": [],
-    "artifactFingerprint": "54bb800437a89b890f2eb16eb51d2ad01eea97d4c04dafbce4f0dfad026141ad",
+    "artifactFingerprint": "ddf24b3c729cd5c33bc23f6d322f783aa03081f278493fbab7251a5b833057ff",
     "provider": "cloudflare-workers"
   }
 }
