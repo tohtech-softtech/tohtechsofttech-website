@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "lastSuccess": {
+    "runId": "d0699041-d00b-42ad-963e-b8301bfb65dc",
+    "publishedAt": "2026-11-19T11:21:20.161Z",
+    "publicationFingerprint": "ce3e06a12c9ab6aac97895a72d509dd61091c280b987929595e8a0a55f1a1479",
+    "entries": [
+      {
+        "slug": "activities",
+        "permalink": "/activities",
+        "title": "活動の様子",
+        "visibility": "public",
+        "fingerprint": "05c4cbe1949b23721aa1f398a4ffd6f069b8b9f9eeb811372d0db6478903cf85",
+        "contentFingerprint": "43d4e837daa733ca9a1f4d6a71dc60f3f81caacc4ae5fb50003e07a8416d5a5b"
+      },
+      {
+        "slug": "index",
+        "permalink": "/",
+        "title": "index",
+        "visibility": "public",
+        "fingerprint": "8b01fe15f96dcf7f2f58783e7d6eabc032929f32527c0112362934a38c0ad0c0",
+        "contentFingerprint": "74673542ceef606100061bb816e9dd936e38bd53fa1dd1c30a268a79eb58005d"
+      },
+      {
+        "slug": "join",
+        "permalink": "/join",
+        "title": "入部 ・ お問い合わせ",
+        "visibility": "public",
+        "fingerprint": "c0821c18dcce8fdd8a82eed79db497e581c16b7ff7d1637b3080a86145905682",
+        "contentFingerprint": "54184b63636cdc3ded56bd7a828b05064a29420098b552ec6d38ee8bf406e621"
+      },
+      {
+        "slug": "members",
+        "permalink": "/members",
+        "title": "部員",
+        "visibility": "public",
+        "fingerprint": "96ffab8ad6e8d94f3f95ca96b67610d417d2bc376b0d46e7698ae0f3eda69bc8",
+        "contentFingerprint": "94bff1b82b1b95370a0bbd802198ddaa261bf24864a33e4c8b8cf98a201bcd73"
+      }
+    ],
+    "redirects": [],
+    "artifactFingerprint": "47bc06cd7fb731f74ad0f531629621e67df7026dc6b4dceed85299ff15c4015e",
+    "provider": "cloudflare-workers"
+  }
+}
